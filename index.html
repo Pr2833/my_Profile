@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pathakottu Chenna Reddy - Portfolio</title>
+    <link rel="stylesheet" href="./style.css"/>
+    <script src="./script.js"></script>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav>
+      <div id="home">        
+        <div class="profile_name">
+          P Chenna Reddy
+          <div class="contact_info">
+            <img src="images/G-mail.png">
+          chandu.reddy5646@gmail.com
+        </div>
+        <div style="clear:both;"></div>
+        <div class="contact_info">
+          <img src="images/Mobile.png">
+          +91 75******53
+
+        </div>
+        </div>
+        <div class="topdiv">
+          <a class="topmenu" href="#about-me">About Me</a>
+          <a class="topmenu" href="#skils">Skills</a>
+          <a class="topmenu" href="#projects">Projects</a>
+          <a class="topmenu" href="Recommendation">Recommendation</a>
+        </div>
+      </div>    
+    </nav>
+
+    <!-- About Me -->
+    <section id="about-me" class="container">
+      <div>
+        <img src="images/chenna_reddy.png" class="profile_image"/>
+      </div>
+
+      <div>
+          <h1>
+            Hi, I'm P chenna reddy! <img src="images/hello.png" width="60px"/>
+          </h1>
+          <p>
+                 I am a front-end web developer with 1 month of experience in both application and presentation layers.
+            I am student and seeking for a job opportunity.
+            I am looking for an Internship and Placement.To work in an organization.where i can learn 
+            new skills, gain new knowledge and giving my best in contributing to the success of 
+            organization.
+            
+          </p>
+      </div>
+    </section>
+              
+    <!-- Skills -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <div style="clear:both;"></div>
+
+      <div class="all_skills">
+        <div class="skill">
+          <img src="images/HTML.png">
+          <h6>HTML</h6>
+          <p>1 Month</p> Experience</p>
+        </div>  
+
+        <div class="skill">
+          <img src="images/JS.png"/>
+          <h6>JavaScript</h6>
+          <p>1 Month Experience</p>
+        </div> 
+        <div class="skill">
+            <img src="images/CSS.png">
+            <h6>CSS</h6>
+            <p>1 Month Experience</p>
+        </div> 
+        <div class="skill">
+            <img src="images/Python.png">
+            <h6>Python</h6>
+            <p>1 year Experience</p>     
+        </div>
+        <div class="skill">
+            <img src="images/MySQL.png">
+            <h6>My SQL</h6>
+            <p>6 Months Experience</p>
+        </div>
+
+      </div>
+    </section>
+          
+    <!-- Projects -->
+    <section class="projects-card" id="projects">
+      <h2>
+        Projects
+      </h2>
+      <div style="clear:both;"></div>
+
+        <div id="projects-container" class="projects-container">
+          <div class="project-card">
+            <h3>Blood Donor Application</h3>
+            <img src="images/blood_donation.png" height="50px" width="50px">
+            <ul>
+              <li>Developed and deployed a bood donation web application to donate blood to any boold donaton hospital to help the society.</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>Weather Prediction</h3>
+            <img src="images/weather.jpg" height="50px" width="50px">
+            <ul>
+              <li>Devloped and deployed a weather prediction web application to help the Travelers around the world to help thier smooth and happy journey.</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>Crypto Currency</h3>
+            <img src="images/crypto.png" height="50px" width="50px">
+            <ul>
+              <li>Information about new crypto projects and thier development status helps to the any user who what to invest on vertual assets essy way to learn new thing on crypto</li>
+            </ul>
+          </div>
+    </div>
+    </section>
+    <div style="clear:both;"></div>
+
+    <!-- Recommendations -->
+    <section id="recommendation">
+      <h2>recommendation</h2>
+      <div style="clear:both;"></div>
+      <div class="all_recommendations" id="all_recommendations">
+        <div class="recommendation">
+          <span>&#8220;</span>
+          chenna is a very quick learner and a good front-end Web developmenter. 
+          He is an excellent team player. 
+          He has a curious mind and asks the right question. 
+          He takes initiative within a team and has potentials to lead the team.
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Working with chenna has been an awesome experience. 
+          he is highly knowledgable and always goes the extra step to make sure everything is right. 
+          working with him in our class minor project was a good learning and every time keeps motivate us 
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          I had worked along with chenna during the initial phase of our class group projects which needed front-end Web development. 
+          he is a committed resource who has in depth knowledge about the domain. 
+          he is a structure for our team projects! 
+          <span>&#8221;</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Recommendation Form -->
+    <section id="contact">
+      <div class="flex_center">
+        <fieldset>
+          <legend class="introduction">Leave a Recommendation</legend>          
+          <input type="text" placeholder="Name (Optional)"> <br/>
+          <textarea id="new_recommendation" cols="500" rows="10" placeholder="Message"></textarea>
+          <div class="flex_center">
+            <button id="recommend_btn" onclick="addRecommendation()">Submit</button>
+          </div>
+        </fieldset>
+      </div>
+    </section>
+
+    <div class="iconbutton">
+      <a href="#home">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" width="63px">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg>
+      </a>
+    </div>
+
+    <div class="popup" id="popup" class="flex_center">
+      <img src="images/tick.png">
+      <h3>Thaks for leaving a recommendation</h3>
+      <button onclick="showPopup(false)">Ok</button>
+    </div>
+  </body>
+</html>
